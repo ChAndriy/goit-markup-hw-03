@@ -1,0 +1,280 @@
+:root{
+--brand-color: #434455;
+}
+body{
+font-family: "Roboto", sans-serif;
+color: var(--brand-color);
+background: #FFFFFF;
+}
+.list{
+list-style: none;
+}
+.link{
+ text-decoration: none;
+}
+
+.header {
+ 
+}
+.header-navigation {
+}
+.header-navigation-link {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+  
+.header-navigation-decor{
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42
+
+
+}
+
+
+.navigation-list {
+}
+.navigation-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.navigation-link:hover{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #404BBF;}
+.navigation-link:focus
+{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #404BBF;}
+
+
+.address {
+  font-style: normal 
+}
+.address-list {
+}
+.address-link {
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+.address-link:hover{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #404BBF;}
+.address-link:focus{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #404BBF;}
+
+.section {
+
+}
+.section-list {
+}
+
+
+.section-button{
+  
+  
+}
+.section-button-all {
+font-family: "Roboto", sans-serif ;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
+}
+.section-button-all:hover{
+color: #FFFFFF;
+background: #404BBF;
+}
+.section-button-all:focus{
+ color: #FFFFFF;
+ background: #404BBF;
+}
+.section-btn {
+  font-family: "Roboto", sans-serif ;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+background: #F4F4FD;
+cursor: pointer;
+}
+.section-btn:hover{
+color: #FFFFFF;
+background: #404BBF;
+}
+.section-btn:focus{
+ color: #FFFFFF;
+ background: #404BBF;
+}
+
+.section-imeg {
+}
+.section-imeg-item {
+  background: #FFFFFF;
+}
+.section-imeg-link {
+}
+.section-imeg-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
+}
+.section-imeg-paragraph {
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.footer {
+  
+  background: #2E2F42;
+}
+
+.footer-decor-text {
+font-size: 16px;
+line-height:1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+}
+
+.header-navigation-footer {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;;
+}
+.footer-navigation-decor {
+  
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
+
+/* second page */
+.blockone {
+  background: #2E2F42;
+}
+
+.blockone-title {
+  font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.blockone-title-btn {
+   font-family: "Roboto", sans-serif;
+  background: #4D5AE5;
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+cursor: pointer;
+}
+.blockone-title-btn:hover{
+background: #404BBF;
+}
+.blockone-title-btn:focus{
+  background: #404BBF;
+}
+/* BlockSecond */
+.blocktoo {
+}
+.blocktoo-title {
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.blocktoo-text {
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455
+}
+
+/* Blockthree */
+.blockthree {
+}
+.blockthree-title {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+.blockthree-list {
+}
+
+/* <!-- Blockfour --> */
+.blockfour {
+  background: #F4F4FD;
+}
+.blockfour-title {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2E2F42;
+}
+.blockfour-title-list{
+  font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.blockfour-list {
+}
+.blockfour-items {
+  background: #FFFFFF;
+}
+.blockfour-text {
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
