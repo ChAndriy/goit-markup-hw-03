@@ -256,22 +256,18 @@ max-width: 264px;
 /* second page */
 .blockone {
   background: #2E2F42;  
-  text-align: center;
+ 
 padding: 188px 0;
-
 }
-
-
 .blockone-title {
-  font-weight: 700;
+font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
-text-align: center;
+display:flex;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 max-width: 496px; 
-
-
+text-align: center;
 }
 .blockone-title-btn {
 font-family: "Roboto", sans-serif;
