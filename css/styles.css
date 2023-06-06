@@ -1,10 +1,24 @@
+
 :root{
 --brand-color: #434455;
+}
+p,h1,h2,h3,h4,h5,h6{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a {
+  text-decoration: none;
+}
+ul{  
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 body{
 font-family: "Roboto", sans-serif;
 color: var(--brand-color);
 background: #FFFFFF;
+margin: 0;
 }
 .list{
 list-style: none;
@@ -12,11 +26,40 @@ list-style: none;
 .link{
  text-decoration: none;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container{
+  max-width: 1440px;
+   align-items: center;
+}
+.container-header{
+display: flex;
+justify-content: center;
+}
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px; 
+  border: 1px solid #E7E9FC;
+  margin-bottom: 96px;
  
 }
 .header-navigation {
+  display: flex;
+  margin-left: 156px;
+  
+  
 }
 .header-navigation-link {
 font-family: 'Raleway', sans-serif;
@@ -27,7 +70,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
 }
-  
+
 .header-navigation-decor{
 font-weight: 800;
 font-size: 18px;
@@ -35,12 +78,13 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42
-
-
 }
 
 
 .navigation-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
 }
 .navigation-link {
 font-weight: 500;
@@ -65,9 +109,16 @@ color: #404BBF;}
 
 
 .address {
-  font-style: normal 
+  font-style: normal;
+  
+  
 }
 .address-list {
+  display: flex;
+  gap: 40px;
+  margin-right: 76px;
+  margin-left: 332px;
+  width: 100%;
 }
 .address-link {
   font-size: 16px;
@@ -81,6 +132,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #404BBF;}
+
 .address-link:focus{
 font-size: 16px;
 line-height: 1.5;
@@ -88,33 +140,17 @@ letter-spacing: 0.02em;
 color: #404BBF;}
 
 .section {
+  margin-bottom: 120px;
+
 
 }
 .section-list {
-}
-
-
-.section-button{
-  
+  display: flex;
+  gap: 24px;
+  margin-bottom: 72px; 
   
 }
-.section-button-all {
-font-family: "Roboto", sans-serif ;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #FFFFFF;
-cursor: pointer;
-}
-.section-button-all:hover{
-color: #FFFFFF;
-background: #404BBF;
-}
-.section-button-all:focus{
- color: #FFFFFF;
- background: #404BBF;
-}
+
 .section-btn {
   font-family: "Roboto", sans-serif ;
 font-weight: 500;
@@ -124,6 +160,10 @@ letter-spacing: 0.04em;
 color: #4D5AE5;
 background: #F4F4FD;
 cursor: pointer;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+padding: 12px 24px ;
+
 }
 .section-btn:hover{
 color: #FFFFFF;
@@ -135,11 +175,25 @@ background: #404BBF;
 }
 
 .section-imeg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+ 
+  
+} 
+.section-imeg-list{
+  border: 1px solid #E7E9FC;
+  height: 420px;
 }
 .section-imeg-item {
+  
   background: #FFFFFF;
+ 
 }
 .section-imeg-link {
+   padding-bottom: 32px;
+   
 }
 .section-imeg-title {
 font-weight: 500;
@@ -147,26 +201,27 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
-
+padding-bottom: 8px;
+padding-left: 16px;
 }
 .section-imeg-paragraph {
   font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+padding-left: 16px;
+padding-bottom: 32px;
 }
-.footer {
-  
+.footer {  
   background: #2E2F42;
-}
+  display: flex;
+  justify-content: center;
+  padding: 100px  1020px 100px 156px ;
+  flex-direction: column;
+  max-height: 312px;
+  
 
-.footer-decor-text {
-font-size: 16px;
-line-height:1.5;
-letter-spacing: 0.02em;
-color: #F4F4FD;
 }
-
 .header-navigation-footer {
 font-family: 'Raleway', sans-serif;
 font-weight: 800;
@@ -174,21 +229,39 @@ font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;;
+color: #4D5AE5;
+display: block;
+padding-bottom: 16px;
+min-width: 264px;
 }
-.footer-navigation-decor {
-  
+.footer-navigation-decor {  
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #F4F4FD;
+
+
 }
+.footer-decor-text {
+font-size: 16px;
+line-height:1.5;
+letter-spacing: 0.02em;
+color: #F4F4FD;
+min-width: 264px;
+}
+
 
 /* second page */
 .blockone {
-  background: #2E2F42;
+  background: #2E2F42;  
+  text-align: center;
+  flex-direction: column;
+  width: 1440px;
+height: 600px;
+margin-bottom: 120px;
+
 }
 
 .blockone-title {
@@ -198,6 +271,12 @@ line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 color: #FFFFFF;
+padding: 188px 472px 48px;
+display: flex;
+width: 496px;
+height: 120px;
+
+
 }
 .blockone-title-btn {
    font-family: "Roboto", sans-serif;
@@ -208,6 +287,12 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 cursor: pointer;
+display: inline-block;
+margin: 0 635px 188px 635px;
+padding: 16px 32px;
+
+border: 0;
+
 }
 .blockone-title-btn:hover{
 background: #404BBF;
@@ -216,7 +301,11 @@ background: #404BBF;
   background: #404BBF;
 }
 /* BlockSecond */
-.blocktoo {
+.blocktoo { display: flex;
+  gap: 24px;
+  margin-bottom: 120px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 .blocktoo-title {
   font-weight: 500;
@@ -224,6 +313,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
+padding-bottom: 8px;
 }
 .blocktoo-text {
   font-size: 16px;
@@ -234,6 +324,7 @@ color: #434455
 
 /* Blockthree */
 .blockthree {
+  
 }
 .blockthree-title {
   font-weight: 700;
@@ -243,13 +334,25 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2E2F42;
+margin-bottom: 72px;
+display: flex;
+justify-content:space-around;
+
+
+
 }
 .blockthree-list {
+  display: flex;
+  gap: 24px;
+  padding: 0 156px 120px  156px;
+
 }
 
 /* <!-- Blockfour --> */
 .blockfour {
   background: #F4F4FD;
+  padding-bottom: 120px;
+  
 }
 .blockfour-title {
   font-weight: 700;
@@ -259,6 +362,8 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2E2F42;
+padding: 120px 0 72px 0;
+
 }
 .blockfour-title-list{
   font-weight: 500;
@@ -266,15 +371,29 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
+padding-bottom: 8px;
+padding-top: 32px;
+display: flex;
+justify-content:space-around;
+
 }
 .blockfour-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  
+ 
 }
 .blockfour-items {
   background: #FFFFFF;
+  
+  
 }
 .blockfour-text {
-  font-size: 16px;
+font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+display: flex;
+justify-content:space-around;
 }
