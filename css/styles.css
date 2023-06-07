@@ -281,7 +281,7 @@ cursor: pointer;
 min-width: 169px;
 height: 56px;
 border: none; 
-background-color:var(--btn-color)
+background-color:var(--btn-color);
 padding: 16px 32px;
 border-radius: 4px; 
 display: block;
