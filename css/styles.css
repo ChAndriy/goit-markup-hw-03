@@ -57,7 +57,7 @@ justify-content: center;
 
 .header {
   border: 1px solid #E7E9FC;
-  margin-bottom: 96px; 
+  margin-bottom: 98px;
 }
 .header-navigation {
   display: flex;
@@ -138,8 +138,7 @@ color: #404BBF;}
 
 
 
-.section {
-  padding-top: 96px; 
+.section { 
   padding-bottom: 120px; 
 }
 .section-list {
