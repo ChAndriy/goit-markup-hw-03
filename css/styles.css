@@ -57,7 +57,7 @@ justify-content: center;
 
 .header {
   border: 1px solid #E7E9FC;
-  margin-bottom: 98px;
+  
 }
 .header-navigation {
   display: flex;
@@ -72,6 +72,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
+margin-right: 76px;
 }
 .header-navigation-decor{
 font-weight: 800;
@@ -80,7 +81,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2E2F42;
-margin-right: 76px;
+
 }
 .navigation-list {
   display: flex;
@@ -140,6 +141,7 @@ color: #404BBF;}
 
 .section { 
   padding-bottom: 120px; 
+  padding-top: 96px;
 }
 .section-list {
   display: flex;
@@ -190,10 +192,6 @@ border:1px solid transparent;
 .section-imeg-item {  
   background: #FFFFFF;
  
-}
-.section-imeg-link {
- 
-   
 }
 .section-imeg-title {
 font-weight: 500;
