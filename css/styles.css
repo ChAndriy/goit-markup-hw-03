@@ -48,20 +48,19 @@ list-style: none;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  align-items: center;
+  
 }
 .container-header{
 display: flex;
-justify-content: center;
+align-items: center;
 }
 
 .header {
-  border: 1px solid #E7E9FC;
+  border-bottom: 1px solid #E7E9FC;
   
 }
 .header-navigation {
   display: flex;
-  margin-left: 156px;
   align-items: center;   
 }
 .header-navigation-link {
@@ -113,14 +112,12 @@ letter-spacing: 0.02em;
 color: #404BBF;}
 .address {
   font-style: normal;
+  margin-left: auto;
   }
 .address-list {
   display: flex;
   gap: 40px;
-  margin-right: 76px;
-  margin-left: 332px;
-  width: 100%;
-}
+ }
 .address-link {
   font-size: 16px;
 line-height: 1.5;
@@ -213,12 +210,9 @@ color: #434455;
 
 
 .footer {  
-  background: #2E2F42;
-  display: flex;
-  justify-content: center;
-  padding: 100px  0;
-  flex-direction: column;
-  max-height: 312px;
+  background: #2E2F42;  
+  padding: 100px  0;  
+  
 }
 .header-navigation-footer {
 font-family: 'Raleway', sans-serif;
@@ -252,9 +246,7 @@ max-width: 264px;
 
 
 /* second page */
-main {padding-top: 96px;
 
-}
 .blockone {
   background: #2E2F42;  
  
@@ -264,11 +256,12 @@ padding: 188px 0;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
-display:flex;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 max-width: 496px; 
 text-align: center;
+margin: 0 auto;
+margin-bottom: 48px;
 }
 .blockone-title-btn {
 font-family: "Roboto", sans-serif;
@@ -278,7 +271,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
-cursor: pointer;
 min-width: 169px;
 height: 56px;
 border: none; 
@@ -287,6 +279,7 @@ padding: 16px 32px;
 border-radius: 4px; 
 display: block;
 cursor: pointer; 
+margin: 0 auto;
 }
 
 .blockone-title-btn:hover{
