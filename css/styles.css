@@ -61,7 +61,8 @@ align-items: center;
 }
 .header-navigation {
   display: flex;
-  align-items: center;   
+  align-items: center;
+  transition: color 5250ms cubic-bezier(0.4, 0, 0.2, 1);   
 }
 .header-navigation-link {
 font-family: 'Raleway', sans-serif;
@@ -85,6 +86,7 @@ color: #2E2F42;
 .navigation-list {
   display: flex;
   gap: 40px;
+  transition: color 5250ms cubic-bezier(0.4, 0, 0.2, 1); 
  }
  .navigation-link-link{
   padding: 24px 0 ;
